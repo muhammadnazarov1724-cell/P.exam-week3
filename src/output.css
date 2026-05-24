@@ -578,6 +578,12 @@
   .text-\[19\] {
     color: 19;
   }
+  .text-\[gr\] {
+    color: gr;
+  }
+  .text-\[green\] {
+    color: green;
+  }
   .text-white {
     color: var(--color-white);
   }
