@@ -1,3 +1,2 @@
 node_modules
-output.css
 git rm --cached <file_name>
