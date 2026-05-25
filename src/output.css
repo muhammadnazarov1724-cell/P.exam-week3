@@ -179,6 +179,9 @@
   .top-\[-\] {
     top: -;
   }
+  .col-span-2 {
+    grid-column: span 2 / span 2;
+  }
   .clear-both {
     clear: both;
   }
@@ -454,12 +457,18 @@
   .bg-\[\#141414\] {
     background-color: #141414;
   }
+  .bg-\[\#191919\] {
+    background-color: #191919;
+  }
   .bg-\[\#212121\] {
     background-color: #212121;
   }
   .to-white {
     --tw-gradient-to: var(--color-white);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .p-\[5px\] {
+    padding: 5px;
   }
   .p-\[7px\] {
     padding: 7px;
@@ -478,6 +487,9 @@
   }
   .p-\[35px\] {
     padding: 35px;
+  }
+  .px-\[5px\] {
+    padding-inline: 5px;
   }
   .px-\[10px\] {
     padding-inline: 10px;
@@ -625,6 +637,11 @@
       position: relative;
     }
   }
+  .lg\:col-span-1 {
+    @media (width >= 64rem) {
+      grid-column: span 1 / span 1;
+    }
+  }
   .lg\:flex {
     @media (width >= 64rem) {
       display: flex;
@@ -708,6 +725,11 @@
   .lg\:grid-cols-2 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .lg\:grid-cols-5 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
     }
   }
   .lg\:grid-cols-6 {
