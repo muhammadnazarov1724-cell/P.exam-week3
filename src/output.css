@@ -227,11 +227,20 @@
   .table {
     display: table;
   }
+  .h-\[4px\] {
+    height: 4px;
+  }
+  .h-\[5px\] {
+    height: 5px;
+  }
   .h-\[7px\] {
     height: 7px;
   }
   .h-\[9px\] {
     height: 9px;
+  }
+  .h-\[40px\] {
+    height: 40px;
   }
   .h-\[42px\] {
     height: 42px;
@@ -262,6 +271,12 @@
   }
   .h-\[780px\] {
     height: 780px;
+  }
+  .w-\[4px\] {
+    width: 4px;
+  }
+  .w-\[5px\] {
+    width: 5px;
   }
   .w-\[7px\] {
     width: 7px;
@@ -347,6 +362,9 @@
   .gap-\[5px\] {
     gap: 5px;
   }
+  .gap-\[7px\] {
+    gap: 7px;
+  }
   .gap-\[10px\] {
     gap: 10px;
   }
@@ -413,11 +431,17 @@
   .rounded-\[40\%\] {
     border-radius: 40%;
   }
+  .rounded-\[45px\] {
+    border-radius: 45px;
+  }
   .rounded-\[48px\] {
     border-radius: 48px;
   }
   .rounded-\[50\%\] {
     border-radius: 50%;
+  }
+  .rounded-\[50\] {
+    border-radius: 50;
   }
   .rounded-\[50px\] {
     border-radius: 50px;
@@ -445,8 +469,14 @@
   .bg-\[\#0A84FF\] {
     background-color: #0A84FF;
   }
+  .bg-\[\#1A1A1A\] {
+    background-color: #1A1A1A;
+  }
   .bg-\[\#1E1E1E\] {
     background-color: #1E1E1E;
+  }
+  .bg-\[\#1F1F1F\] {
+    background-color: #1F1F1F;
   }
   .bg-\[\#459CF3\] {
     background-color: #459CF3;
@@ -550,8 +580,14 @@
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
+  .text-\[1px\] {
+    font-size: 1px;
+  }
   .text-\[14px\] {
     font-size: 14px;
+  }
+  .text-\[16px\] {
+    font-size: 16px;
   }
   .text-\[18px\] {
     font-size: 18px;
@@ -602,8 +638,14 @@
   .text-\[\#98989A\] {
     color: #98989A;
   }
+  .text-\[\#B3B3B2\] {
+    color: #B3B3B2;
+  }
   .text-\[\#E6E6E6\] {
     color: #E6E6E6;
+  }
+  .text-\[1\] {
+    color: 1;
   }
   .text-\[14p\] {
     color: 14p;
@@ -781,6 +823,12 @@
     @media (width >= 64rem) {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+  .lg\:text-3xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
     }
   }
   .lg\:text-\[18px\] {
