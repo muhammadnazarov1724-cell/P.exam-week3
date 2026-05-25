@@ -256,6 +256,12 @@
   .h-\[300px\] {
     height: 300px;
   }
+  .h-\[350px\] {
+    height: 350px;
+  }
+  .h-\[370px\] {
+    height: 370px;
+  }
   .h-\[380px\] {
     height: 380px;
   }
@@ -532,6 +538,9 @@
   .p-\[35px\] {
     padding: 35px;
   }
+  .px-\[0px\] {
+    padding-inline: 0px;
+  }
   .px-\[5px\] {
     padding-inline: 5px;
   }
@@ -555,6 +564,12 @@
   }
   .px-\[35px\] {
     padding-inline: 35px;
+  }
+  .px-\[50px\] {
+    padding-inline: 50px;
+  }
+  .px-\[60px\] {
+    padding-inline: 60px;
   }
   .py-\[5px\] {
     padding-block: 5px;
@@ -858,6 +873,11 @@
       padding-inline: 40px;
     }
   }
+  .lg\:px-\[60px\] {
+    @media (width >= 64rem) {
+      padding-inline: 60px;
+    }
+  }
   .lg\:text-start {
     @media (width >= 64rem) {
       text-align: start;
@@ -909,6 +929,11 @@
   .lg\:text-\[40px\] {
     @media (width >= 64rem) {
       font-size: 40px;
+    }
+  }
+  .lg\:text-\[60px\] {
+    @media (width >= 64rem) {
+      font-size: 60px;
     }
   }
   .lg\:text-\[70px\] {
